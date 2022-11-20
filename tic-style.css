@@ -15,4 +15,13 @@
 } 
 .border-top {
     border-top: 1px solid black;
+} 
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+} 
+.text:hover {
+    cursor: pointer;
 }
