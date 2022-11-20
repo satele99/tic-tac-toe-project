@@ -1,0 +1,18 @@
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(3, 100px);
+} 
+
+.border-left {
+    border-left: 1px solid black;
+} 
+.border-top {
+    border-top: 1px solid black;
+}
