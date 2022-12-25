@@ -1,6 +1,7 @@
 
 .flex-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -24,4 +25,19 @@
 } 
 .text:hover {
     cursor: pointer;
+} 
+.game-info {
+    border: 1px solid black;
+    margin-top: 50px;
+    width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+.current-player, .score {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
