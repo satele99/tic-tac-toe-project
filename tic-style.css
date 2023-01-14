@@ -12,11 +12,11 @@
     margin-top: 40px;
 } 
 
-.border-left {
-    border-left: 1px solid black;
+.border-l {
+    border-left: 3px solid black;
 } 
-.border-top {
-    border-top: 1px solid black;
+.border-t {
+    border-top: 3px solid black;
 } 
 .text {
     display: flex;
@@ -28,10 +28,10 @@
     cursor: pointer;
 } 
 .game-info {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-top: 50px;
-    width: 800px;
-    height: 200px;
+    width: 200px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,4 +45,27 @@
 
 .button {
     margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+#winner {
+    margin-top: 40px;
+    /* border: 1px solid black; */
+    width: 400px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+} 
+.template-game {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+} 
+
+#player, #next-player, #player1-score, #player2-score{
+    font-weight: bold;
+    font-size: 25px;
 }
