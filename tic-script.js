@@ -1,3 +1,4 @@
+
 const board = document.getElementById('container');
 const xCard = document.getElementById('player1-score');
 const oCard = document.getElementById('player2-score');
@@ -89,7 +90,6 @@ function checkWinner() {
         }
         
     }
-    console.log(playBoard);
 };
 
 function clearBoard() {
@@ -108,6 +108,16 @@ function clearBoard() {
 
 function reset(){
     location.reload();
+};
+
+function computerChoice() {
+    const computer = childId[Math.floor(Math.random() * childId.length)]
+    let cpuSpot = document.getElementById(computer);
+    if(cpuSpot.innerText == ''){
+        return cpuSpot
+    }else{
+        computerChoice();
+    }
 };
 
 
