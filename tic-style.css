@@ -86,4 +86,7 @@
     .game-info, .button, #winner {
         margin-top: 0px;
     }
+    #winner, .button {
+        margin-bottom: 3rem;
+    }
 }
