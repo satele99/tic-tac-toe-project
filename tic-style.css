@@ -69,3 +69,21 @@
     font-weight: bold;
     font-size: 25px;
 }
+
+@media screen and (max-width: 805px) {
+    html, body {
+        overflow-x: hidden !important;
+    }
+    .main_content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .template-game {
+        gap: 12px;
+    }
+    .game-info, .button, #winner {
+        margin-top: 0px;
+    }
+}
